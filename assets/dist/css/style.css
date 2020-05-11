@@ -1,0 +1,870 @@
+@import url("https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display");
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  background: #f9f9f9;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+.content-color{
+  color: #999999;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.header-right i {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.header-right {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 85px;
+}
+.header-right:first-child{
+  margin-left: 0px;
+}
+i.fas.fa-map-marker-alt {
+    padding: 10px 12px;
+}
+.header-social .fab {
+  font-size: 20px;
+  background: #707070;
+  border: 1px solid #707070;
+  color: #fff;
+  padding: 8px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
+.header-social span {
+    margin-left: 15px;
+}
+
+.banner-logo{
+  top: 17px;
+    position: relative;
+    margin-left: 25px;
+}
+
+
+.appointment-sec{
+  background: #000000 url(../../images/northstar-home-healthcare-appointment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.site-btn{
+  background: #ff0000;
+    color: white;
+    border-radius: 35px;
+}
+.appointment-inner {
+    background: #00000073;
+    padding: 6.7% 0;
+}
+
+.bdr-circle{
+  padding: 15px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+p.sr-content-max {
+    max-height: 67px;
+    overflow: hidden;
+}
+.service-single {
+    padding: 12%;
+    margin-left: 40px;
+}
+.home-helth-bg{
+  background: linear-gradient( to right, #BDAAFE, #6440de);
+}
+
+.skilled-bg{
+  background: linear-gradient( to right, #E62065, #e62065c4);
+}
+
+.physical-bg{
+  background: linear-gradient( to right, #49DFEC, #49dfecbf);
+}
+
+.occupational-bg{
+  background: linear-gradient( to right, #0291A4, #0291a4d9);
+}
+
+.speech-bg{
+  background: linear-gradient( to right, #e897bb, #e897bbd1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sticky-nav {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0 0 15px -5px #ff0000;
+}
+
+.sticky-nav #header-nav {
+  padding: 5px 0;
+}
+
+.northstar-header .navbar-brand {
+  max-width: 180px;
+  min-width: 150px;
+}
+
+.navbar-toggler {
+  border-color: #ff0000;
+  padding: 5px 10px;
+}
+
+.navbar-toggler .fa-bars {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+#header-nav {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#header-nav .nav-link {
+  padding: 0.2rem 1rem;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#header-nav .nav-link:hover,
+#header-nav .nav-link:active,
+#header-nav .nav-item.active .nav-link {
+  color: #ff0000;
+}
+
+#header-nav hr {
+  border-top: 1px solid #ff0000;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 10px 20px 1px #ff0000;
+}
+
+#header-nav .btn-quote,
+#header-nav .btn-become-driver {
+  background: #ff0000;
+  color: #fff;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+#header-nav .btn-quote:hover,
+#header-nav .btn-become-driver:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+#header-nav .fa,
+#header-nav span {
+  color: #ff0000;
+  float: left;
+  text-transform: lowercase;
+}
+
+.fa.fa-phone {
+  transform: rotate(90deg);
+}
+
+.northstar-banner {
+    background: url(../../images/home/backgrounds/northstar-home-healthcare-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.northstar-banner-inner {
+    padding: 10.7% 0;
+    background: url(../../images/home/backgrounds/northstar-home-healthcare-banner-overlay.png);
+}
+
+.northstar-banner-inner .northstar-banner-more a {
+  background: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 35px;
+
+}
+
+.northstar-logo {
+    background: url(../../images/logo/logo.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    padding: 5% 0 10% 0;
+    z-index: 2;
+    margin-top: -8.5%;
+    margin-bottom: 5%;
+  }
+
+.services-inner {
+  background: url(../../images/backgrounds/northstar-services.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-item {
+  border: 1px solid #ff0000;
+  /* height: 100%; */
+  padding: 5%;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.read-more a:hover {
+  color: #ff0000;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+}
+
+.get-a-quote {
+  padding-top: 10%;
+}
+
+.quote-inner {
+  background: url(../../images/backgrounds/get-a-quote.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.get-a-quote h1 {
+  font-size: 44px;
+}
+
+.quote-form {
+  background: url(../../images/backgrounds/quote-form.png);
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center left;
+}
+
+.quote-form .form-control {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  background: transparent;
+  outline: 0;
+  padding: 0 0 15px 0;
+}
+
+.quote-form .btn-submit {
+  border: 0;
+  background: #ff0000;
+  outline: 0;
+  padding: 10px 75px;
+}
+
+.welcome-sec .col-12 {
+  overflow: hidden;
+}
+
+.welcome-sec .learn-more a {
+  padding: 15px 80px;
+  text-decoration: none;
+  color: #fff;
+  background: #ff0000;
+  letter-spacing: 2px;
+}
+
+
+
+.northstar-footer {
+  background: #000000 url(../../images/footer/northstar-home-healthcare-footer.png);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-inner{
+  background: #00000080;
+}
+
+
+.northstar-footer img {
+  max-width: 250px;
+}
+.northstar-copyright {
+    margin-top: 100px;
+}
+
+.northstar-quick-link li {
+  list-style: none;
+  float: none;
+}
+
+.northstar-quick-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.northstar-quick-link a:hover {
+  color: #ff0000;
+  letter-spacing: 1.5px;
+}
+
+.input-group-text {
+  border: 0;
+  background: #ff0000;
+}
+
+.newsletter .input-group,
+.newsletter input {
+  border: none !important;
+  border-radius: 0;
+  outline: none;
+}
+
+.newsletter input {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  height: auto;
+}
+
+.newsletter input[type="submit"] {
+  background: transparent;
+  padding: 0;
+  color: #fff;
+}
+
+.footer-social span {
+  margin-right: 15px;
+}
+
+.footer-social span:last-child {
+  margin-right: 0;
+}
+
+.footer-social .fab {
+  font-size: 20px;
+  background: #707070;
+  border: 1px solid #707070;
+  color: #fff;
+  padding: 8px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+
+.footer-social a:hover .fab {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+#services .breadcrumb {
+  background: url(../../images/backgrounds/services.jpg);
+}
+
+#technology .breadcrumb {
+  background: url(../../images/backgrounds/technology.png);
+}
+
+#career .breadcrumb {
+  background: url(../../images/backgrounds/northstar-career.png);
+}
+
+#about-us .breadcrumb {
+  background: url(../../images/backgrounds/northstar-about.png);
+}
+
+#contact-us .breadcrumb {
+  background: url(../../images/backgrounds/northstar-contact.png);
+}
+
+#terms-and-conditions .breadcrumb {
+  background: url(../../images/backgrounds/northstar-terms-and-conditions.jpg);
+}
+
+#apply-online .breadcrumb {
+  background: url(../../images/backgrounds/apply-to-northstar-online.jpg);
+}
+
+.breadcrumb {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-inner {
+  padding: 14% 0;
+  background: linear-gradient(
+    to right,
+    rgba(103, 103, 103, 0.66),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.page-content .content .col-md-6 {
+  margin-bottom: 3rem;
+}
+
+.page-content .content .row .col-md-6:last-child {
+  padding-right: 15px;
+  padding-left: 10%;
+}
+
+#career .page-content .content .row:nth-child(2n + 1) .col-md-6:last-child,
+#services .page-content .content .row:nth-child(2n + 2) .col-md-6:last-child {
+  padding-right: 10%;
+  padding-left: 15px;
+}
+
+#services .page-content .content .row:nth-child(2n + 2) {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#services .page-content .content .row:nth-child(2n + 2) .col-md-6 {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#career .page-content .content .row:nth-child(2n + 1) {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#career .page-content .content .row:nth-child(2n + 1) .col-md-6 {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.block-title h5 {
+  color: #ff0000;
+}
+
+.block-details .icon {
+  width: 16px;
+}
+
+.block-details .icon.before {
+  margin-top: -15px;
+}
+
+.block-details .icon.after {
+  margin-top: 15px;
+}
+
+.block-btn a {
+  color: #fff;
+  background: #ff0000;
+  text-decoration: none;
+  padding: 3px 20px;
+}
+
+.content-promo {
+  background: url(../../images/backgrounds/content-promo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo-inner {
+  padding: 8% 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.content-promo h1 {
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.content-promo .btn-quote a,
+#header-nav .btn-become-driver a {
+  color: #fff;
+  background: #ff0000;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+
+.block-author p {
+  color: #ff0000;
+}
+
+.technology-block,
+.about-block {
+  border: 1px solid #ff0000;
+}
+
+.about-seperator {
+  max-width: 160px;
+}
+
+.about-count {
+  max-width: 60px;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 500px;
+}
+
+.map-container > * {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.map-marker {
+  position: absolute;
+  max-width: 200px;
+  left: 0;
+  right: 0;
+  top: 70px;
+  height: auto;
+}
+
+.excel-tracking-contact {
+  background: url(../../images/backgrounds/testimonial.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 6rem;
+}
+
+.contact-inner {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.contact-form {
+  background: url(../../images/backgrounds/quote-form.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center left;
+}
+
+.contact-form .form-control,
+.application-form .form-control {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  background: transparent;
+  padding: 0 0 15px 0;
+}
+
+.contact-form .btn-submit,
+.application-form .btn-submit {
+  border: 0;
+  background: #ff0000;
+  color: #fff;
+  outline: 0;
+  padding: 10px 75px;
+}
+
+#terms-and-conditions {
+  background: url(../../images/backgrounds/texture.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.application-form {
+  box-shadow: 0 0 15px -10px #000;
+}
+
+.application-form label.col-12 {
+  color: #ff0000;
+}
+
+.error {
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
+  width: 100% !important;
+  color: #ff2600;
+}
+
+@media screen and (max-width: 1220px) {
+  #header-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  #header-nav .btn-quote,
+  #header-nav .btn-become-driver {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .northstar-header .navbar-brand {
+    max-width: 150px;
+  }
+
+  #header-nav .nav-link {
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+  }
+
+  #header-nav .btn-quote,
+  #header-nav .btn-become-driver {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #header-nav .nav-link {
+    padding-right: 0.6rem !important;
+    padding-left: 0.6rem !important;
+  }
+
+  #header-nav .btn-quote,
+  #header-nav .btn-become-driver {
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .northstar-banner-inner h2 {
+    font-size: 45px;
+  }
+
+  .northstar-banner-inner h1 {
+    font-size: 60px;
+  }
+
+  .breadcrumb h1 {
+    font-size: 70px;
+  }
+
+  .page-content .content-title {
+    font-size: 45px;
+    letter-spacing: 3px;
+  }
+
+  .northstar-logo {
+    margin-bottom: 1%;
+  }
+
+  .page-content .content .col-md-6 {
+    margin-top: 3rem;
+  }
+
+  .service-item {
+    padding: 12%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    max-width: 200px !important;
+  }
+
+  #header-nav.show {
+    position: relative;
+  }
+
+  #header-nav.show:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 2px;
+    top: 10px;
+    height: 1px;
+    background: #ff0000;
+    box-shadow: 0 10px 20px 1px #ff0000;
+  }
+
+  #header-nav .nav-link {
+    text-align: left !important;
+  }
+
+  #header-nav .btn-quote,
+  #header-nav .btn-become-driver {
+    background: transparent;
+    color: #ff0000;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #header-nav .fa,
+  #header-nav span {
+    margin-top: 10px;
+  }
+
+  #header-nav span {
+    margin-top: 6px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  nav.navbar {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services-inner {
+    padding-bottom: 12%;
+  }
+
+  .quote-form {
+    margin-top: -27%;
+  }
+
+  .welcome-sec h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    transform: scale(1.2, 1);
+    -webkit-transform-origin-x: left;
+    -moz-transform-origin-x: left;
+    -o-transform-origin-x: left;
+  }
+  .northstar-footer-logo img {
+    max-width: 210px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .northstar-logo {
+    background-size: 120% 130% !important;
+    background-position: 45% 30% !important;
+  }
+
+  .page-content .content .row .col-md-6 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  nav.navbar {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .northstar-banner-inner h1 {
+    font-size: 20px;
+  }
+
+  .welcome-sec .learn-more a {
+    padding: 8px 45px;
+  }
+
+  .contact-form .btn-submit,
+  .application-form .btn-submit {
+    padding: 8px 45px;
+  }
+
+  .page-content .content .row .col-md-6 {
+    padding-right: 8% !important;
+    padding-left: 8% !important;
+  }
+}
