@@ -208,14 +208,39 @@ i.fal.fa-heart-rate {
     padding: 0.2rem 1.5rem;
 }
 
+/*Career*/
+
+.career-banner-bg{
+  background: url(../../images/career/northstar-career-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Service*/
 
 
+.service-banner-bg{
+  background: url(../../images/service/backgrounds/northstar-home-healthcare-service-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.single-service-content {
+    padding: 30px;
+}
 
-
-
-
-
-
+.border-left-top{
+  border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+}
+.border-right-bottom{
+  border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.border-bottom-row{
+  border-bottom: 2px solid #e8e8e8;
+}
 
 
 
@@ -260,7 +285,6 @@ i.fal.fa-heart-rate {
   padding: 0.2rem 1rem;
   color: #FFF;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 #header-nav .nav-link:hover,
@@ -295,6 +319,29 @@ i.fal.fa-heart-rate {
   color: #ff0000;
   float: left;
   text-transform: lowercase;
+}
+.bg-black{
+  background: black;
+}
+
+a.nav-hover {
+    padding: 0.2rem 0;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
+
+#header-nav .nav-hover:hover,
+#header-nav .nav-hover:active,
+#header-nav .nav-item.active .nav-hover,
+a.nav-hover:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 1px;
+}
+.p-l-0{
+  padding-left: 0px !important; 
+  padding-right: 0px !important; 
 }
 
 .fa.fa-phone {
